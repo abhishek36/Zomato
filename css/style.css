@@ -141,6 +141,7 @@
 .second .second-para .light {
   color: rgb(207, 207, 207);
 }
+
 /* second section ends */
 
 /* tab section starts */
@@ -180,6 +181,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .tab .tab-box-2 .tab-box-img {
   width: 60px;
   height: 60px;
@@ -189,6 +191,7 @@
   justify-content: center;
   background-color: #f8f8f8;
 }
+
 .tab .tab-box-3 .tab-box-img {
   width: 60px;
   height: 60px;
@@ -298,6 +301,7 @@ hr {
   height: 150px;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 12px;
 }
+
 .circle-img-2 {
   background-color: #ffbc0d;
   padding: 15px;
@@ -435,6 +439,7 @@ hr {
   max-width: 82%;
   margin: auto;
 }
+
 /* brand ends */
 
 /* food cards start */
@@ -464,7 +469,11 @@ hr {
   padding: 10px;
 }
 
-.food-card:hover {
+.food-card:nth-child(odd) {
+  box-shadow: 2px 2px 7px #dbdbdb;
+}
+
+.food-card:nth-child(even):hover {
   box-shadow: 2px 2px 7px #dbdbdb;
 }
 
@@ -596,6 +605,7 @@ hr {
   margin-top: 13px;
   margin-bottom: 5px;
 }
+
 /* food cards ends */
 
 /* faq starts */
@@ -634,6 +644,7 @@ hr {
   color: rgb(28, 28, 28);
   font-weight: 400;
 }
+
 /* faq ends */
 
 /* footer starts */
@@ -762,6 +773,7 @@ footer {
   margin-bottom: 35px;
   font-weight: 300;
 }
+
 /* footer ends */
 
 /* login page start */
@@ -960,6 +972,7 @@ footer {
   .top-navbar .menu.active {
     left: 0;
   }
+
   .top-navbar {
     justify-content: space-between;
     max-width: 100%;
@@ -1013,6 +1026,7 @@ footer {
     z-index: 9;
     flex-direction: column;
   }
+
   .top-navbar .user {
     display: flex;
     margin-left: auto;
@@ -1135,8 +1149,9 @@ footer {
     line-height: 17px;
   }
 
-  .login-container{
+  .login-container {
     padding: 20px;
   }
 }
+
 /* media query ends */
