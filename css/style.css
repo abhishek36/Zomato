@@ -513,9 +513,6 @@ hr {
   overflow: hidden;
 }
 
-.food-card-content {
-}
-
 .food-card-content .title {
   display: flex;
   align-items: center;
@@ -982,6 +979,8 @@ footer {
     margin: 0;
     padding: 0;
     border-radius: 0;
+    background: transparent;
+    top: 56px;
   }
 
   .top-navbar .input .location {

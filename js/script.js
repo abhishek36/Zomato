@@ -41,3 +41,4 @@ $(".brand-carousel .owl-carousel").owlCarousel({
     },
   },
 });
+
